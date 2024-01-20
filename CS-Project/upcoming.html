@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #da3434;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            transition: background-color 0.3s;
+        }
+
+        header:hover {
+            background-color: #b22d2d;
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ffb347; /* change to your preferred hover color */
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        article {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            transition: box-shadow 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+
+        article:hover {
+            transform: scale(1.0);
+        }
+
+        h2 {
+            color: #da3434;
+            transition: color 0.3s;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: transform 0.3s, ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+
+
+
+        @media only screen and (max-width: 600px) {
+            section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            article {
+                width: 100%;
+            }
+        }
+    </style>
+    <title>Upcoming Albums</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Rap Reviews</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article class="album">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b2/Kanye_West_and_Ty_Dolla_Sign_%28¥%24%29_–_Vultures.png">
+            <div>
+                <h2>Vultures-Kanye West</h2>
+                    <p>The highly anticipated Kanye West album "Vultures" has drawn quite a bit of controversy and there is no credible knowledge of its true release date as it keeps getting pushed back. kanye is set to team up with Ty Dolla Sign but nothing else is known.</p>
+                    <p>Release Date: 1/19/24</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="album">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e0/Insano2023.jpeg">
+            <div>
+                <h2>Insano-Kid Cudi</h2>
+                    <p>Insano is an upcoming album by Kid Cudi. The Album has been talked about for several months now and will make its debut this friday. This will be Cudi's first release in over 2 years and from the information we know will have a star studded list of producers.</p>
+                    <p>Release Date: 1/12/24</p>
+                </div>
+            </div>
+        </article>
+
+       
+
+    </section>
+
+   
+
+</body>
+
+</html>
